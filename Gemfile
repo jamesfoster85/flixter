@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 1.2'
 # Official Sass port of Bootstrap 2 and 3
 gem 'bootstrap-sass', '~> 3.3.5'
 
+# Forms made easy for Rails
+gem 'simple_form'
+
+# Flexible authentication solution for Rails with Warden.
+gem 'devise'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
