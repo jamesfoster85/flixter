@@ -36,6 +36,15 @@ gem 'simple_form'
 # Flexible authentication solution for Rails with Warden.
 gem 'devise'
 
+# Classier solution for file uploads for Rails, Sinatra and other Ruby web frameworks
+gem 'carrierwave'
+
+# Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+gem 'figaro'
+
+# Ruby cloud services library
+gem 'fog'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
