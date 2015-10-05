@@ -42,11 +42,11 @@ gem 'carrierwave'
 # Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
 gem 'figaro'
 
-# Ruby cloud services library
-gem 'fog'
+# AWS-SDK storage adapter for CarrierWave
+gem 'carrierwave-aws'
 
 # mini replacement for RMagick
-gem "mini_magick"
+gem 'mini_magick'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
