@@ -45,6 +45,9 @@ gem 'figaro'
 # Ruby cloud services library
 gem 'fog'
 
+# mini replacement for RMagick
+gem "mini_magick"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
