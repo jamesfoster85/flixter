@@ -48,6 +48,9 @@ gem 'carrierwave-aws'
 # mini replacement for RMagick
 gem 'mini_magick'
 
+# A library for setting up Ruby objects as test data.
+gem 'factory_girl'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
