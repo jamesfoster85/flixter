@@ -54,6 +54,9 @@ gem 'factory_girl'
 # Payment processing
 gem 'stripe'
 
+# An acts_as_sortable/acts_as_list replacement built for Rails 3 & 4
+gem 'ranked-model'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
