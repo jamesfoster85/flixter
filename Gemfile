@@ -7,7 +7,7 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -28,7 +28,10 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 # Official Sass port of Bootstrap 2 and 3
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '3.3.5.1'
+
+# Rack-based asset packaging system
+gem 'sprockets', '2.11.0'
 
 # Forms made easy for Rails
 gem 'simple_form'
