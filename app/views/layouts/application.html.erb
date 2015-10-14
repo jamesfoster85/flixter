@@ -12,9 +12,9 @@
     .vjs-fullscreen {padding-top: 0px}
   </style>
 </head>
-<body>
+<body class="Site">
 
-  <div id="wrap">
+  <div class="Site-content">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -63,9 +63,40 @@
 
   <div id="footer">
     <div class="container">
-      <b>Teachers</b>
-      <br />
-      <%= link_to 'Teach a Course', new_instructor_course_path %>
+      <div class="col-xs-12 col-sm-3">
+        <b>Teachers</b>
+        <br />
+        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'My Dashboard', dashboard_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <b>Contact</b>
+        <br />
+        jamesfoster85@gmail.com
+      </div>
+      <div class="col-xs-12 col-sm-3 social">
+        <b>Social</b>
+        <br />
+        <%= link_to 'https://github.com/jamesfoster85' do %>
+          <%= image_tag 'github.png', :class => 'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.linkedin.com/pub/james-foster/74/564/a80' do %>
+          <%= image_tag 'linkedin.png', :class => 'social-button' %>
+        <% end %>
+        <%= link_to 'https://plus.google.com/108486147792955231832/about' do %>
+          <%= image_tag 'google.png', :class => 'social-button' %>
+        <% end %>
+      </div>
     </div>
   </div>
 
