@@ -52,7 +52,7 @@ gem 'carrierwave-aws'
 gem 'mini_magick'
 
 # A library for setting up Ruby objects as test data.
-gem 'factory_girl'
+gem 'factory_girl_rails'
 
 # Payment processing
 gem 'stripe'
